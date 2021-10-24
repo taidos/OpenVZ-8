@@ -1,0 +1,27 @@
+[openvz-eight]
+name=OpenVZ 8
+#baseurl=http://download.openvz.org/current/
+mirrorlist=https://download.openvz.org/virtuozzo/mirrorlists/8.0/releases-os.mirrorlist
+enabled=1
+gpgcheck=0
+gpgkey=http://download.openvz.org/RPM-GPG-Key-OpenVZ
+
+# In addition to the above repo, you have to enable at least one the the
+# kernel repositories below. By default, openvz-kernel-rhel6 is enabled;
+# you might want to change this.
+
+[openvz-eight-updates]
+name=OpenVZ 8 Updates
+#baseurl=http://download.openvz.org/current/
+mirrorlist=https://download.openvz.org/virtuozzo/mirrorlists/8.0/updates-os.mirrorlist
+enabled=1
+gpgcheck=0
+gpgkey=http://download.openvz.org/RPM-GPG-Key-OpenVZ
+
+[openvz-eight-factory]
+name=OpenVZ 8 Factory
+#baseurl=http://download.openvz.org/current/
+mirrorlist=https://download.openvz.org/virtuozzo/mirrorlists/8.0/factory-os.mirrorlist
+enabled=1
+gpgcheck=0
+gpgkey=http://download.openvz.org/RPM-GPG-Key-OpenVZ
