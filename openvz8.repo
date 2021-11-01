@@ -25,3 +25,10 @@ mirrorlist=https://download.openvz.org/virtuozzo/mirrorlists/8.0/factory-os.mirr
 enabled=1
 gpgcheck=0
 gpgkey=http://download.openvz.org/RPM-GPG-Key-OpenVZ
+
+[vz8-eight-factory]
+name=Virtuozzo 8 Factory
+baseurl=http://repo.virtuozzo.com/vzlinux/8/x86_64/os/
+enabled=1
+gpgcheck=0
+gpgkey=http://download.openvz.org/RPM-GPG-Key-OpenVZ
