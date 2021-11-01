@@ -8,3 +8,9 @@ I will assamble the needed packages and put it here for anyone who wants it.
 # Tested in CentOS 8
 Download the repo file to: /etc/yum.repos.d/
 Type this command: yum -y install kernel-4.18.0-305.3.1.vz8.7.13.x86_64
+wget -O /etc/yum.repos.d/openvz8.repo https://raw.githubusercontent.com/taidos/openvz8/main/openvz8.repo;
+yum -y install epel-release;
+mkdir ~/yum; 
+mv /etc/yum.repos.d/CentOS* ~/yum;
+yum -y remove centos-release;
+yum -y install kernel-4.18.0-305.3.1.vz8.7.13.x86_64;
