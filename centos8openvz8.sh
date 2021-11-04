@@ -1,4 +1,4 @@
-# Tested and working on migrating CentOS8 without updates to OpenVZ/Virtuozzo 8
+# Tested and working on migrating CentOS8 without updates to OpenVZ/Virtuozzo 8 (Still under checks)
 wget -O /etc/yum.repos.d/openvz8.repo https://raw.githubusercontent.com/taidos/openvz8/main/openvz8.repo;
 mkdir ~/yum; 
 mv /etc/yum.repos.d/CentOS* ~/yum;
