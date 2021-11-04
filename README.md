@@ -6,4 +6,4 @@ This is what i will assamble regarding the question i wanted to update the main 
 I will assamble the needed packages and put it here for anyone who wants it.
 
 # Tested in CentOS 8
-* Migration script available *
+* Migration script available 
