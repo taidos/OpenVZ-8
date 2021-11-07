@@ -19,6 +19,5 @@ passwd root;
 echo "After this you can reboot in the VZ kernel and start using it";
 echo "Now after reboot please remember to put the modules on:";
 echo "modprobe ploop";
-echo "Change the default kernel to vz8 and not to vl8
 echo "Execute then after reboot, now you can REBOOT :)";
 echo "--------------------------------------";
