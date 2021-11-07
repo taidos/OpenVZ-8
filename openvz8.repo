@@ -1,3 +1,4 @@
+## Original repositores set by taidos @ https://github.com/taidos/ @
 [openvz-eight]
 name=OpenVZ 8
 #baseurl=http://download.openvz.org/current/
@@ -5,10 +6,6 @@ mirrorlist=https://download.openvz.org/virtuozzo/mirrorlists/8.0/releases-os.mir
 enabled=1
 gpgcheck=0
 gpgkey=http://download.openvz.org/RPM-GPG-Key-OpenVZ
-
-# In addition to the above repo, you have to enable at least one the the
-# kernel repositories below. By default, openvz-kernel-rhel6 is enabled;
-# you might want to change this.
 
 [openvz-eight-updates]
 name=OpenVZ 8 Updates
