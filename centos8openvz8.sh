@@ -12,6 +12,7 @@ yum -y install *ez.noarch prlcrl vzpkg*;
 yum -y install https://download.openvz.org/virtuozzo/factory8/x86_64/os/Packages/p/python3-criu-3.15.2.9-1.vz8.x86_64.rpm https://download.openvz.org/virtuozzo/factory8/x86_64/os/Packages/c/criu-3.15.2.9-1.vz8.x86_64.rpm;
 yum -y install vzctl prlctl prl-disp-service *ploop* *ez.noarch python3-pip prl-vzvncserver;
 yum -y module reset perl-IO-Socket-SSL perl-libwww-perl;
+grubby --set-default-index=1
 systemctl enable vz;
 passwd root;
 echo "After this you can reboot in the VZ kernel and start using it";
