@@ -13,6 +13,7 @@ yum -y install https://download.openvz.org/virtuozzo/factory8/x86_64/os/Packages
 yum -y install vzctl prlctl prl-disp-service *ploop* *ez.noarch python3-pip prl-vzvncserver;
 yum -y module reset perl-IO-Socket-SSL perl-libwww-perl;
 systemctl enable vz;
+passwd root;
 echo "After this you can reboot in the VZ kernel and start using it";
 echo "Now after reboot please remember to put the modules on:";
 echo "modprobe ploop";
