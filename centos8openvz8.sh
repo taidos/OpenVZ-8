@@ -15,6 +15,7 @@ yum -y install vzctl prlctl prl-disp-service *ploop* *ez.noarch python3-pip prl-
 yum -y module reset perl-IO-Socket-SSL perl-libwww-perl;
 grubby --set-default-index=1;
 systemctl enable vz;
+systemctl enable NetworkManager;
 modprobe ploop;
 passwd root;
 echo "After this you can reboot in the VZ kernel and start using it";
