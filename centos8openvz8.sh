@@ -1,4 +1,5 @@
 # Tested and working on migrating CentOS8 without updates to OpenVZ/Virtuozzo 8 (Still under checks)
+# For almalinux remove setup from: /etc/dnf/protected.d/*.conf
 wget -O /etc/yum.repos.d/openvz8.repo https://raw.githubusercontent.com/taidos/openvz8/main/openvz8.repo;
 mkdir ~/yum; 
 mv /etc/yum.repos.d/CentOS* ~/yum;
